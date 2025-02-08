@@ -11,18 +11,11 @@ The Fire Rescue Robot is an autonomous/semi-autonomous robot designed to detect 
 - **Obstacle Avoidance:** Uses ultrasonic sensors to detect and avoid obstacles.
 
 ## Components Used
-- **Microcontroller:** Arduino/Raspberry Pi
+- **Microcontroller:** Arduino uno or mega
 - **Flame Sensors** (e.g., IR flame sensor)
 - **Ultrasonic Sensors** (for obstacle avoidance)
 - **Motor Driver Module** (L298N or similar)
-- **DC Motors & Wheels** (for movement)
-- **Servo Motor** (to adjust the extinguisher position)
-- **Water Pump or CO2 System** (for fire suppression)
-- **Buzzer & LEDs** (for alert signals)
-- **Power Source:** Rechargeable battery pack
-
-## Wiring Diagram
-Coming soon...
+- **Bluetooth module**  (HC-05)
 
 ## Installation and Setup
 1. Assemble all the components as per the wiring diagram.
@@ -35,25 +28,9 @@ Coming soon...
 5. Run the robot in a controlled test environment.
 
 ## Usage
-- **Autonomous Mode:**
-  - Robot scans for fire using flame sensors.
-  - Navigates towards the fire while avoiding obstacles.
-  - Activates the extinguisher system to put out the fire.
-  - Sends an alert (via buzzer or wireless communication) upon successful extinguishing.
 
 - **Manual Control Mode:**
   - Operator can control the movement using a remote (Bluetooth/WiFi/RC controller).
   - Can be used in situations requiring precise intervention.
 
-## Future Enhancements
-- Implement a camera module for **real-time monitoring**.
-- Add **AI-based fire detection** for accuracy.
-- Integrate with **IoT** for remote operation and alerts.
-- Use a **stronger extinguisher system** for larger fires.
-
-## License
-This project is open-source and free to modify.
-
-## Author
-[Your Name]
 
